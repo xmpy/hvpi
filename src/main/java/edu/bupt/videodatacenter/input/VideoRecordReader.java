@@ -106,7 +106,6 @@ public class VideoRecordReader extends RecordReader<Text, ImageWritable> {
 		try{
 
 		FileSplit split = (FileSplit)genericSplit; // 获取split在HDFS上对应的文件名
-		split.
 		filePath = split.getPath();
 
 		xr = new XugglerReader(filePath, context.getConfiguration());

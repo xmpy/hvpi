@@ -13,7 +13,7 @@ We customize the `FileInputFormat` and  `RecordReader` class in Hadoop. To run i
 ###Step 1
 Clone the repository.
 
-	git clone git@github.com:xmpy/video-hadoop-template.git
+	git clone git@github.com:xmpy/hvpi.git
 
 ###Step 2
 Build this project.
